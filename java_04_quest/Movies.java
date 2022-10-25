@@ -1,7 +1,10 @@
 package java_04_quest;
 
 public class Movies {
-    String[] film = {
+
+    public static void main(String[] args){
+
+        String[] film = {
             "Indiana Jones et le Royaume du Crâne de Cristal",
             "Indiana Jones et la Dernière Croisade",
             "Indiana Jones et le Temple maudit "};
@@ -15,11 +18,12 @@ public class Movies {
             crusadeActor,
             templeActor
     };
-    public void main(String... args){
-        for (int i = 0 ; i < this.film.length ; i++ ) {
-            System.out.println("Dans le film"+film[i]+"les principaux acteurs sont "+titleActor[i]);
+        for (int i = 0 ; i < film.length ; i++ ) {
+            System.out.println("Dans le film"+film[i]+"les principaux acteurs sont ");
+            for (int j=0;j<templeActor.length;j++){
+                System.out.println(titleActor[i][j]);
 
-        }
+        }}
 
     }
 }

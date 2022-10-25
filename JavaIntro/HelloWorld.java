@@ -5,7 +5,6 @@ class HelloWorld {
         // display Hello World! in the terminal
         System.out.println("Hello World!");
     }
-
-
-
 }
+
+
