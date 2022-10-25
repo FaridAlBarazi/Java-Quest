@@ -19,14 +19,14 @@ public class Movies {
             templeActor
     };
         for (int i = 0 ; i < film.length ; i++ ) {
-            System.out.println("Dans le film"+film[i]+"les principaux acteurs sont ");
+            /*System.out.println("Dans le film"+film[i]+"les principaux acteurs sont ");
             for (int j=0;j<templeActor.length;j++){
-                System.out.println(titleActor[i][j]);
-
+                System.out.println(titleActor[i][j]);*/
+            System.out.println("Dans le film "+ film[i] +" les principaux acteurs sont " + String.join(", ", titleActor[i]));
         }}
 
     }
-}
+
 
 
 
